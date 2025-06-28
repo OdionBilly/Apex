@@ -20,7 +20,7 @@ export default function Hero(props: HeroProps) {
               style= {{ objectFit:'cover' }}
                 />
             </div>
-            <div className="pt-48 flex justify-center">
+            <div className="pt-48 flex justify-center text-[#fff]">
                 <h1>{props.title}</h1>
             </div>
         </div>
